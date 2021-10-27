@@ -9,6 +9,8 @@ export const initialState = {
 	id: '',
 }
 
+export const getUserId = state => state.user.id
+
 export const userSignUp = createAsyncThunk('user/signUp', async body => {
 	console.log('enter', body)
 	const data = await fetch(`http://localhost:4000/api/v1/auth/signup`, {
