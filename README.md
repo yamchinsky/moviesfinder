@@ -1,2 +1,1 @@
-# moviesfinder
-app for favorite movies
+hi there

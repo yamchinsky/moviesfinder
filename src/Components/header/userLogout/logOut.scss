@@ -1,0 +1,32 @@
+.logoutBtn {
+	background: transparent;
+	border: none;
+}
+
+.logoutSvg {
+	fill: #58daa8;
+	width: 40px;
+	height: 42px;
+	transform: rotate(180deg);
+}
+
+.logoutSvg:hover {
+	cursor: pointer;
+}
+
+.logoutText {
+	display: none;
+
+	// @include tablet() {
+	// 	@include flex(space-between, center);
+	// 	font-size: 12px;
+	// 	color: $primary-text-color;
+	// }
+}
+
+.logoutText:hover {
+	// @include tablet() {
+	// 	text-decoration: underline;
+	// 	cursor: pointer;
+	// }
+}

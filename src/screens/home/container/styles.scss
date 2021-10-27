@@ -1,0 +1,21 @@
+.home-screen {
+	display: flex;
+  flex-grow: 1;
+  position: relative;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__wrap {
+    background-color: #E7FFF8;
+    position: relative;
+    z-index: 1;
+    margin-top: -40px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    height: 100%;
+  }
+}
